@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:padding="5dp">
+
+    <TextView
+        android:id="@+id/textInfoTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:text="Informações do"
+        android:textColor="@color/colorPrimary"
+        android:textAppearance="@android:style/TextAppearance.Large" />
+
+    <TextView
+        android:id="@+id/txtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="60dp"
+        android:text="Nome:"
+        android:textColor="@color/colorPrimary"/>
+
+    <TextView
+        android:id="@+id/textNomeInfo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/txtn"
+        android:text="TextView"
+        android:textAppearance="@android:style/TextAppearance.Medium" />
+
+    <TextView
+        android:id="@+id/txtee"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="120dp"
+        android:text="E-mail:"
+        android:textColor="@color/colorPrimary"/>
+
+    <TextView
+        android:id="@+id/textEmailInfo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/txtee"
+        android:text="TextView"
+        android:textAppearance="@android:style/TextAppearance.Medium" />
+
+
+
+    <TextView
+        android:id="@+id/txttt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="180dp"
+        android:text="Telefone"
+        android:textColor="@color/colorPrimary"/>
+
+    <TextView
+        android:id="@+id/textTelefoneInfo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/txttt"
+        android:text="TextView"
+        android:textAppearance="@android:style/TextAppearance.Medium" />
+
+    <Button
+        android:id="@+id/buttonEditar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="246dp"
+        android:background="@color/colorPrimary"
+        android:text="Editar"
+        android:textColor="@android:color/white" />
+
+    <Button
+        android:id="@+id/buttonBloquear"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/buttonEditar"
+        android:background="@color/colorPrimary"
+        android:text="Bloquear"
+        android:textColor="@android:color/white" />
+
+    <Button
+        android:id="@+id/buttonDesbloquear"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/buttonBloquear"
+        android:background="@color/colorPrimary"
+        android:text="Desbloquear"
+        android:textColor="@android:color/white" />
+</RelativeLayout>

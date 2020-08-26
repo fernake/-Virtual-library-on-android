@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/textTituloList"
+        android:layout_width="match_parent"
+        android:layout_height="29dp"
+        android:text="Titulo"
+        android:textColor="#008000"
+        android:textAppearance="@android:style/TextAppearance.Medium" />
+
+    <TextView
+        android:id="@+id/textAutorList"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Autor" />
+
+    <TextView
+        android:id="@+id/textEdicaoList"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Edicao" />
+
+    <TextView
+        android:id="@+id/textAnoList"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Ano" />
+
+    <TextView
+        android:id="@+id/textCursoList"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Curso" />
+</LinearLayout>
